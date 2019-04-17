@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="686" started-at="2019-03-22T07:01:26Z" finished-at="2019-03-22T07:01:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="686" started-at="2019-03-22T07:01:26Z" finished-at="2019-03-22T07:01:26Z">
+      <class name="com.icici.loans.carloans.TC_003">
+        <test-method status="PASS" signature="f(java.util.Hashtable)[pri:0, instance:com.icici.loans.carloans.TC_003@1753acfe]" name="f" duration-ms="22" started-at="2019-03-22T07:01:26Z" data-provider="dp" finished-at="2019-03-22T07:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=y, col4=A4, col3=A3, col2=A2, col1=A1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.util.Hashtable)[pri:0, instance:com.icici.loans.carloans.TC_003@1753acfe]" name="f" duration-ms="0" started-at="2019-03-22T07:01:26Z" data-provider="dp" finished-at="2019-03-22T07:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=n, col4=B4, col3=B3, col2=B2, col1=B1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.util.Hashtable)[pri:0, instance:com.icici.loans.carloans.TC_003@1753acfe]" name="f" duration-ms="0" started-at="2019-03-22T07:01:26Z" data-provider="dp" finished-at="2019-03-22T07:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=n, col4=C4, col3=C3, col2=C2, col1=C1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.icici.loans.carloans.TC_003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
