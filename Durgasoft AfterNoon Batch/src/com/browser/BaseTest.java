@@ -39,6 +39,8 @@ public class BaseTest
 			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"//drivers//MicrosoftWebDriver.exe");
 			driver=new EdgeDriver();
 		}
+		
+		driver.manage().window().maximize();
 	}
 	
 	public static void navigate(String url)
