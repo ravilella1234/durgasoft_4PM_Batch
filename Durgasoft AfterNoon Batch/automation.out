@@ -1,0 +1,8 @@
+initializion of data & OR & LOg4j  in progress.....
+Opened Browser :- chrome
+initializion of data & OR & LOg4j  in progress.....
+Opened Browser :- chrome
+Navigated to URL :- https://www.amazon.in
+Selected the item 10 By using Locator :- searchDropdownBox
+Entered the text Harry Potter By Using Locator :- twotabsearchtextbox
+Clicked on amazon search Button By using Locator :- //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']
