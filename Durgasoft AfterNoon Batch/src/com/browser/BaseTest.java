@@ -14,12 +14,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 public class BaseTest 
 {
 	public static WebDriver driver;
 	public static Properties p;
 	public static Properties or;
 	public static FileInputStream fis=null;
+	
+	
+	//Extent Report Initialization
+		public static ExtentReports e = ExtentManager.getInstance();
+		public static ExtentTest test;
 	
 	public static void init() throws Exception
 	{
